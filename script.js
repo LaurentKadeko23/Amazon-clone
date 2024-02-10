@@ -38,3 +38,15 @@ next_btn.addEventListener('click', (e) => {
   }
   changeSlide()
 })
+
+// script for the scroll bar for the Best seller In Sports and Products
+
+const scrollContainer = document.querySelectorAll(".products")
+
+// this code here prevent the default setting of the scrollbar. I should be able to schroll with the mouseschrol.
+for (const item of scrollContainer) {
+  item.addEventListener("wheel", (evt)=>{
+    evt.preventDefault();
+    item.scrollLeft += evt.deltaY
+  })
+}
