@@ -4,7 +4,7 @@
 
 For example:
 
-- 2022-10-25 13:00 Worked for 2 hour.
+- 2024-02-25 19:00 Worked for 2 hour.
 
   - _List the things you have done._
 
