@@ -5,7 +5,6 @@ const next_btn =  document.querySelector(".control_next");
 // we are on the first image
 let n = 0;
 
-
 // hdidng all the images so we can display one image after the other
 function changeSlide(){
   for (let i = 0; i < imgs.length; i++) {
