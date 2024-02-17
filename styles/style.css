@@ -23,6 +23,7 @@ nav{
   background: #131921;
   padding: 10px 20px;
   color: white;
+  position: static;
 }
 
 .nav-bottom img{
